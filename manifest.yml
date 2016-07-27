@@ -1,0 +1,8 @@
+---
+applications:
+- name: rabbitmq-go-app
+  memory: 128M
+  services:
+  - rmq
+  env:
+    SERVICE_NAME: rmq
